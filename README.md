@@ -34,8 +34,8 @@ It should have a sober and minimalist appearance that allows the user to easily 
 
 What are you going to see when you open the application?
 
-the idea is to have a big board style screen where you can see little labels, u should be capable of changing the size of those labels
-and write inside them with a little toolbar where u can change the style of the text
+the idea is to have a big board style screen where you can see little labels, you should be capable of changing the size of those labels
+and write inside them with a little toolbar where you can change the style of the text
 
 you should be able to move around the labels.
 
