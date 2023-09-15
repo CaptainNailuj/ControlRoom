@@ -1,23 +1,45 @@
 # ControlRoom
 
-Within this repository you will find different projects, where each one will work on a different aspect of web development.
+-Control room To do list application
+    
+    The idea is to create a To Do List application, a minimalist looking application that at least meets the following features and characteristics:
 
-here I leave a list with the name of each project and a short description:
 
--To do list application
-    Build a simple to-do list application using a web framework like React, Vue.js, or Flask. This project will help you practice both front-end and back-end development.
+User-Friendly Interface:
 
--Simple 2D game with phaser engine
-    Create a basic game using a game development framework like Phaser (for 2D web games). Game development involves frequent code changes and updates, making it an excellent project for Git practice.
+    Intuitive and easy-to-use design with a clean and clutter-free interface.
 
--Ecommerce website
-    Create a basic e-commerce website where users can browse products, add them to a cart, and make purchases. This project will help you learn about building a complete web application with Git.
+Task Management:
 
--weather app
-    Build a weather application that fetches and displays weather data from an API. This project will give you experience in working with APIs and handling data in your applications.
+    Create, edit, and delete tasks quickly.
+    Support for due dates, start dates, deadlines, and recurring tasks.
+    Ability to organize tasks into lists or categories for better organization.
 
--Recipe Manager
-    Build a recipe management application that allows users to add, edit, and delete recipes. You can also implement features like categorization and search.
+Reminders and Notifications:
 
--Challenges
-    development of different programming challenges in languages ​​specifically javascript and python
+    Customizable reminders for due dates and times.
+
+Priority and Labels:
+
+    Options for setting task priorities (e.g., high, medium, low) and labels (e.g., work, personal, errands).
+    Color-coded tags or labels for easy identification.
+
+
+Style and look of the application
+
+It should have a sober and minimalist appearance that allows the user to easily identify the tools
+
+
+
+
+What are you going to see when you open the application?
+
+the idea is to have a big board style screen where you can see little labels, u should be capable of changing the size of those labels
+and write inside them with a little toolbar where u can change the style of the text
+
+you should be able to move around the labels.
+
+you should be able to set a timer on each label so you get a notification on your screen when the timer meet the deadline.
+
+with just a button you can create new labels.
+
