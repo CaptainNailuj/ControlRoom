@@ -46,7 +46,8 @@ CHECKLIST STEP BY STEP
 
 1- Create folder for components and the structure of the folder should look like this:
 
-        ├── src/
+todo-app/
+  ├── src/
   │    ├── components/
   │    │    ├── Toolbar.js
   │    │    ├── TodoBoard.js
@@ -54,6 +55,9 @@ CHECKLIST STEP BY STEP
   │    ├── App.js
   │    ├── App.css
   │    └── index.js
+  ├── package.json
+  └── ...
+
 
 
 2- Install the required library (you need to check documentation at https://www.npmjs.com/package/react-beautiful-dnd)
