@@ -30,8 +30,6 @@ Style and look of the application
 It should have a sober and minimalist appearance that allows the user to easily identify the tools
 
 
-
-
 What are you going to see when you open the application?
 
 the idea is to have a big board style screen where you can see little labels, you should be capable of changing the size of those labels
@@ -43,3 +41,29 @@ you should be able to set a timer on each label so you get a notification on you
 
 with just a button you can create new labels.
 
+
+CHECKLIST STEP BY STEP
+
+1- Create folder for components and the structure of the folder should look like this:
+
+        ├── src/
+  │    ├── components/
+  │    │    ├── Toolbar.js
+  │    │    ├── TodoBoard.js
+  │    │    └── TodoItem.js
+  │    ├── App.js
+  │    ├── App.css
+  │    └── index.js
+
+
+2- Install the required library (you need to check documentation at https://www.npmjs.com/package/react-beautiful-dnd)
+
+3- Create the toolbar component to contain your two buttons for creating  and deleting task
+
+4-Create the TodoBoard.js component to represent the task board with two sections for "In Progress" and "Finished" tasks. we'll use the Beautiful dnd library for this. within the doc we can check the drag and drop feature.
+
+5- Create the TodoItem.js component to represent each individual task as a draggable item within the "In Progress" and "Finished" sections.
+
+6-Now, you can work your App.js component, which assembles everything! very important.
+
+7-we know can check a render of a work in progress, we use the index.js to render app component.
