@@ -71,3 +71,6 @@ todo-app/
 6-Now, you can work your App.js component, which assembles everything! very important.
 
 7-we know can check a render of a work in progress, we use the index.js to render app component.
+
+
+nose que hijueputas.
