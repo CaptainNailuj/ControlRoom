@@ -14,7 +14,7 @@ import Task from './task';
 
 
 function TaskList({ tasks, onDelete }) {
-    
+
     /* 
     This part of the code defines the JSX markup that will be
     rendered when the TaskList component is used in a React application.
@@ -34,7 +34,7 @@ function TaskList({ tasks, onDelete }) {
           which likely allows the child component to trigger the deletion of a task when needed.
 
     */
-    
+
     return (
         <div className="task-list">
             {tasks.map((task, index) => (
